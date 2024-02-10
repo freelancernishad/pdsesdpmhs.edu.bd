@@ -124,9 +124,9 @@ function sitedetails()
 
 
 
-    $count = DB::table('school_details')->where('school_id', '125983')->count();
+    $count = DB::table('school_details')->where('school_id', '136045')->count();
     if ($count > 0) {
-        return  $data = DB::table('school_details')->where('school_id', '125983')->first();
+        return  $data = DB::table('school_details')->where('school_id', '136045')->first();
 
     } else {
         echo "

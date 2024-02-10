@@ -14,7 +14,7 @@ Vue.prototype.$withWWW = 4
 Vue.prototype.$withOutWWW = 3
 }
 
-localStorage.setItem('getschoolid','125983')
+localStorage.setItem('getschoolid','136045')
 
 
 Vue.prototype.$localStorage = localStorage

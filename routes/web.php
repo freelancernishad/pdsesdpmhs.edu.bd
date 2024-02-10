@@ -405,7 +405,7 @@ Route::group(['prefix' => 'dashboard', 'middleware' => ['auth']], function () {
         $roles = Role::all();
         $classess = json_encode(['Six', 'Seven', 'Eight', 'Nine', 'Ten']);
 
-        $school_id = '125983';
+        $school_id = '136045';
         $school_detials = school_detail::where("school_id", "$school_id")->first();
         $school_detials['slider'] =  json_decode($school_detials->slider);
 
@@ -430,7 +430,7 @@ Route::get('/{vue_capture?}', function () {
             setCookie('getschoolid', myItem, 7);
     </script>
     ";
-    $school_id = '125983';
+    $school_id = '136045';
     // if (isset($_COOKIE["getschoolid"])) {
         //     $school_id = htmlspecialchars($_COOKIE["getschoolid"]);
         // }
