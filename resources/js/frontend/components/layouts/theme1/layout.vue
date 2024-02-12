@@ -25,7 +25,7 @@
             </div>
             <div>
                 <h2 class="fw-bold text-left text-dark name" style="font-size: 25px;    border-bottom: 1px solid #271054;">{{ schoolSettings.SCHOLL_NAME }}</h2>
-                <p class="text-left fw-bold f13" style="color: var(--my-blue-color);font-size: 16px;">TEPRIGANJ ADARSHA BL HIGH SCHOOL</p>
+                <p class="text-left fw-bold f13" style="color: var(--my-blue-color);font-size: 16px;">{{ schoolSettings.SCHOLL_NAME_en }}</p>
             </div>
             <div class="contact-info">
                 <!-- <p class="fw-bold mb-0 text-danger">মোবাইলঃ০১৭১৯৪২১৬০৯</p>

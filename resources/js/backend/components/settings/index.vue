@@ -87,8 +87,15 @@
 
                 <div class="col-md-6">
                     <div class="form-group">
-                        <label>School Name:</label>
+                        <label>School Name (Bangla):</label>
                         <input class="form-control" type="text" v-model="form.SCHOLL_NAME" placeholder="School Name" id="SCHOLL_NAME" required />
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label>School Name (English):</label>
+                        <input class="form-control" type="text" v-model="form.SCHOLL_NAME_en" placeholder="School Name" id="SCHOLL_NAME_en" required />
                     </div>
                 </div>
 

@@ -35,6 +35,7 @@ class SchoolDetailController extends Controller
             "SMS_TOKEN" => $result->SMS_TOKEN,
 
             "SCHOLL_NAME" => $result->SCHOLL_NAME,
+            "SCHOLL_NAME_en" => $result->SCHOLL_NAME_en,
             "SCHOLL_ADDRESS" => $result->SCHOLL_ADDRESS,
             "SCHOLL_BUILD" => $result->SCHOLL_BUILD,
             "SCHOLL_CODE" => $result->SCHOLL_CODE,
@@ -137,6 +138,7 @@ class SchoolDetailController extends Controller
             "SMS_TOKEN" => $request->SMS_TOKEN,
 
             "SCHOLL_NAME" => $request->SCHOLL_NAME,
+            "SCHOLL_NAME_en" => $request->SCHOLL_NAME_en,
             "SCHOLL_ADDRESS" => $request->SCHOLL_ADDRESS,
             "SCHOLL_BUILD" => $request->SCHOLL_BUILD,
             "SCHOLL_CODE" => $request->SCHOLL_CODE,

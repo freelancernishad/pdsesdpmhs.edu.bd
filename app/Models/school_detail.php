@@ -14,6 +14,7 @@ class school_detail extends Model
         'school_domain',
         'SMS_TOKEN',
         'SCHOLL_NAME',
+        'SCHOLL_NAME_en',
         'SCHOLL_ADDRESS',
         'SCHOLL_BUILD',
         'SCHOLL_CODE',
